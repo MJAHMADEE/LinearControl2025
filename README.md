@@ -1,4 +1,5 @@
 <div align="center">
+  <img src="https://raw.githubusercontent.com/MJAHMADEE/MJAHMADEE/main/Kntu-control-2.png" alt="Linear Control Systems Banner">
   <h1>K. N. Toosi University of Technology</h1>
   <h2>Linear Control Systems - Fall 2025</h2>
 </div>
