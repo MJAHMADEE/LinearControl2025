@@ -1,45 +1,69 @@
-# Linear Control Systems (Fall 2025)
-**K. N. Toosi University of Technology**
+<div align="center">
+  <h1>K. N. Toosi University of Technology</h1>
+  <h2>Linear Control Systems - Fall 2025</h2>
+</div>
 
-Welcome to the official GitHub repository for the Linear Control Systems course for the Fall 2025 semester. This repository serves as the central hub for all course materials, including lecture notes, assignments, code samples, and important announcements.
+<div align="center">
 
-## Course Description
+[![Semester](https://img.shields.io/badge/Semester-Fall%202025-blue.svg)](https://github.com/MJAHMADEE/LinearControl2025)
+[![University](https://img.shields.io/badge/University-K.N.T.U.-red.svg)](http://www.kntu.ac.ir/)
+[![Toolchain](https://img.shields.io/badge/Tool-MATLAB%20%26%20Simulink-yellow.svg)](https://www.mathworks.com/products/matlab.html)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE.md)
 
-This course provides a comprehensive introduction to the analysis and design of feedback control systems. Students will learn the fundamental principles of modeling dynamic systems, analyzing their time and frequency responses, and designing controllers to achieve desired performance specifications. Topics include system representation using transfer functions and state-space models, stability analysis, root locus techniques, frequency-domain analysis (Bode and Nyquist plots), and the design of classic controllers like PID, lead, and lag compensators. The course aims to bridge the gap between theoretical concepts and practical engineering applications.
-
-## Course Staff
-
-| Role                      | Name                       | Contact Information                                                                                               |
-| ------------------------- | -------------------------- | ----------------------------------------------------------------------------------------------------------------- |
-| **Instructor** | Prof. Hamid D. Taghirad    | 📧 [taghirad@kntu.ac.ir](mailto:taghirad@kntu.ac.ir) <br> 🌐 [Website](http://aras.kntu.ac.ir/taghirad)             |
-| **Head Teaching Assistant** | Mohammad Javad Ahmadi      | 📧 [mjahmadee@gmail.com](mailto:mjahmadee@gmail.com) <br> 🐙 GitHub: [@MJAHMADEE](https://github.com/MJAHMADEE) |
-| **Head Teaching Assistant** | Parisa Ghorbani            | 📧 [pariis.ghorbani@gmail.com](mailto:pariis.ghorbani@gmail.com) <br> 🐙 GitHub: [@ParisaGhorbani](https://github.com/ParisaGhorbani) |
-
-## Repository Structure
-
-All course materials are organized into the following directories:
-
-* **/Lectures**: Contains PDF files of lecture slides for each week.
-* **/Assignments**: Programming assignments, problem sets, and their due dates.
-* **/Solutions**: Solutions to selected problems and assignments (will be posted after the deadline).
-* **/Code**: MATLAB and Simulink examples used in lectures and assignments.
-* **/Templates**: Standard templates for reports and README files for your projects.
-* **/Announcements**: Important updates and announcements regarding the course.
-
-## Prerequisites
-
-* Differential Equations
-* Laplace Transforms
-* Complex Variables
-* Basic Linear Algebra
-
-## Required Software
-
-* **MATLAB** & **Simulink** (Control System Toolbox is essential)
+</div>
 
 ---
 
-## Course Schedule
+### **Welcome to the Future of Control!**
+
+Welcome to the digital home for **Linear Control Systems**. This course is your gateway to understanding the principles that govern everything from autonomous drones and robotics to complex economic systems. Here, we will move beyond theory to build, analyze, and design the systems that shape our world. This repository is your primary resource for all course materials.
+
+---
+
+### **Meet the Teaching Team** 🚀
+
+We are here to guide you on your journey through the world of control systems. Please feel free to reach out.
+
+| Role                      | Name & Profile                                                                                                | Contact Information                                                                                               |
+| ------------------------- | ------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------- |
+| **👨‍🏫 Instructor** | **Prof. Hamid D. Taghirad** | 📧 [taghirad@kntu.ac.ir](mailto:taghirad@kntu.ac.ir) <br> 🌐 [ARAS Lab Website](http://aras.kntu.ac.ir/taghirad) |
+| **🧑‍💻 Head TA** | **Mohammad Javad Ahmadi**<br>🐙 [@MJAHMADEE](https://github.com/MJAHMADEE)                                     | 📧 [mjahmadee@gmail.com](mailto:mjahmadee@gmail.com)                                                              |
+| **🧑‍💻 Head TA** | **Parisa Ghorbani**<br>🐙 [@ParisaGhorbani](https://github.com/ParisaGhorbani)                                 | 📧 [pariis.ghorbani@gmail.com](mailto:pariis.ghorbani@gmail.com)                                                   |
+
+---
+
+### **What's Inside This Repository?** 🧭
+
+This repository is carefully organized to help you find what you need quickly.
+
+* `📁 /Lectures`: All presentation slides and supplementary notes.
+* `✍️ /Assignments`: Problem sets, programming tasks, and project descriptions.
+* `💡 /Solutions`: Detailed solutions for assignments (posted after deadlines).
+* `💻 /Code`: Practical MATLAB/Simulink examples and scripts from our lectures.
+* `📋 /Templates`: Standardized templates for your project reports.
+* `📢 /Announcements`: Important updates—check here regularly!
+
+---
+
+### **Getting Started: Your Checklist** ✅
+
+To hit the ground running, please ensure you have the following:
+
+1.  **Academic Prerequisites**: A solid understanding of:
+    * Differential Equations
+    * Laplace Transforms & Complex Variables
+    * Basic Linear Algebra
+2.  **Software Tools**:
+    * **MATLAB** & **Simulink** are essential. Make sure you have the **Control System Toolbox** installed.
+
+---
+
+### **🗓️ Course Roadmap: A 14-Week Journey**
+
+This is our planned schedule. Click the summary below to expand the full weekly breakdown.
+
+<details>
+<summary><strong>📅 Click to view the full Course Schedule</strong></summary>
 
 | Week | Topic                                   | Key Concepts                                                                                                                              |
 | :--: | --------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- |
@@ -58,13 +82,16 @@ All course materials are organized into the following directories:
 |  13  | **Dynamic Compensator Design** | Designing P controllers for stability margins, Lead/PD design for bandwidth compensation, Lag/PI design for steady-state error and disturbance rejection, Lead-Lag and PID controller design. |
 |  14  | **Sensitivity-Based Controller Design** | The sensitivity function and its complement, shaping desired sensitivity functions, causality constraints, the interpolation conditions theorem, design for unstable and non-minimum phase systems. |
 
+</details>
+
 ---
 
-## How to Get Help
+### **Communication & Contributions** 💬
 
-* For questions about lecture content or assignments, please **open an issue** in this repository. This allows everyone to benefit from the discussion.
-* For personal matters or grade inquiries, please email one of the Teaching Assistants.
+* **Got a question?** For any questions related to assignments or course content, please **[open an issue](https://github.com/MJAHMADEE/LinearControl2025/issues)**. This creates a public forum where everyone can learn.
+* **Found a typo or an error?** Feel free to submit a **Pull Request** with your suggested fix. We appreciate your contributions!
+* **Personal Matters:** For grade-related or personal questions, please email one of the TAs directly.
 
-## License
+---
 
-The content of this repository is licensed under the [MIT License](LICENSE.md), which allows for reuse and distribution with attribution.
+This course repository is licensed under the **MIT License**. You are free to use and share the materials for educational purposes.
